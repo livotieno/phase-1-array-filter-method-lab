@@ -1,5 +1,5 @@
 function  findMatching(driversName, array){
-    const name = driversName.char(0).toUppercase + driversName.slice(2).toLowerCase();
+    const name = driversName.charAt(0).toUppercase + driversName.slice(2).toLowerCase();
     const name2 = driversName.toLowerCase();
     const filter = array.filter(name);
     return filter;
